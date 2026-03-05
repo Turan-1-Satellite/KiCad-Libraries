@@ -1,0 +1,234 @@
+(footprint "solar_cell_B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.5 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "c2f487ee-1cbc-4238-a391-b742d27ecd68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at -3.5 2.5 0)
+		(layer "F.Fab")
+		(uuid "25ac4739-a993-4847-8e8b-1c1d79463163")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c69291f-90b0-4b5a-b154-5582692b0c45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0caabb89-59d1-4b06-966b-761e03e892d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0 -27)
+		(end 13 -40)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82702ff6-78db-4bad-89d2-f75e8785fa14")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -27)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a72874f-1d74-4971-8127-500430a42375")
+	)
+	(fp_line
+		(start 0 0)
+		(end 80 0)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57a975b2-e919-4980-b7bc-8a63379dd370")
+	)
+	(fp_line
+		(start 13 -40)
+		(end 67 -40)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b06d8216-57e0-4986-ae61-521f2dd390c8")
+	)
+	(fp_line
+		(start 67 -40)
+		(end 80 -27)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53be1348-3658-4d58-9942-23265562c97d")
+	)
+	(fp_line
+		(start 68.9 -37.8)
+		(end 68.9 -37.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1a43244-0afd-4678-a3ae-eee0bd574bc5")
+	)
+	(fp_line
+		(start 80 0)
+		(end 80 -27)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c01cdb9a-8697-4058-a42f-0eeabf728dac")
+	)
+	(pad "+V" smd rect
+		(at 41.14 -20.22)
+		(size 45 24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e843ea17-9155-4cd2-baa8-6d1ddff9a3e7")
+	)
+	(pad "+V" smd custom
+		(at 41.14 -20.22)
+		(size 45 24)
+		(layers "F.Cu")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 27.4235 17.3835) (xy 13.2235 17.3835) (xy 13.2235 24.3835) (xy 4.9965 24.3835) (xy 4.9965 17.3835)
+					(xy -27.9035 17.3835) (xy -27.9035 -16.8435) (xy 27.4235 -16.8435)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b7bdc914-cbe5-41f5-89cf-62dcb640f1b7")
+	)
+	(pad "+V" smd roundrect
+		(at 50.25 3)
+		(size 8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.005)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "f7a260aa-4a04-43e0-9413-a4be8be6a6ea")
+	)
+	(pad "GND" smd rect
+		(at 19.5 3)
+		(size 8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "98655047-270f-494b-81be-133e539821bd")
+	)
+	(pad "GND" smd rect
+		(at 40 3)
+		(size 8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "39cb36bf-bc95-4857-81e9-c409cb3e52d1")
+	)
+	(pad "GND" smd custom
+		(at 40 3)
+		(size 8 2)
+		(layers "F.Cu")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 5.0635 1.7365) (xy 15.3365 1.7365) (xy 15.3365 -1.7635) (xy 28.5635 -1.7635) (xy 28.5635 2.1635)
+					(xy -26.7635 2.1635) (xy -26.7635 -1.7635) (xy 5.0635 -1.7635)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "11cd411e-b403-4b8c-a6c5-497034ef3432")
+	)
+	(pad "GND" smd rect
+		(at 60.5 3)
+		(size 8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "ae1feca1-2740-4d50-bafe-4500f7ce607c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/Solar_Cell_4c_V1A.STEP"
+		(offset
+			(xyz 39.8 111 -52)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 90 -0)
+		)
+	)
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/Solar_Cell_4c_V1A_2.STEP"
+		(offset
+			(xyz 39.5 111 -52)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 90 -0)
+		)
+	)
+)
