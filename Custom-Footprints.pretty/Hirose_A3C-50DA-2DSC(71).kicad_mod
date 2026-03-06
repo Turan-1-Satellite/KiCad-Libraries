@@ -741,7 +741,7 @@
 		(uuid "4d94718b-8a1b-4c7f-b26a-5be0cb3fa626")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/Hirose A3C-50DA-2DSA(71).stp"
+	(model "${TURAN_1}/3Ds/Hirose A3C-50DA-2DSA(71).stp"
 		(offset
 			(xyz 24 1 0)
 		)
