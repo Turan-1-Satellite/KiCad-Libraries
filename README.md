@@ -28,7 +28,7 @@ Preferences → Configure Paths
 4. Add a new path:
 
 Name:
-TURAN_1
+<<TURAN_1>>
 
 Path:
 (the directory where you cloned this repository)
