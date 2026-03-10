@@ -1,6 +1,6 @@
-# Turan-1 KiCad Libraries
+# KiCad Libraries
 
-This repository contains all custom electronic component libraries used in the Turan-1 Satellite project.
+This repository contains all custom electronic component libraries used in the **Turan-1 Satellite project**.
 
 The library includes:
 
@@ -12,60 +12,48 @@ These libraries are intended to be used with KiCad for the development of the Tu
 
 ---
 
-## Installation
+## Importing the Library to the project
 
-1. Clone this repository
-
-git clone https://github.com/Turan-1-Satellite/KiCad-Libraries.git
-
-
-2. Open KiCad
-
-3. Go to:
-
-Preferences → Configure Paths
-
-4. Add a new path:
-
-Name:
-TURAN_1
-
-Path:
-(the directory where you cloned this repository)
-
-Example:
-
-C:/Users/yourname/KiCad-Libraries
-
+1. To use this library inside your kicad project, all you need is adding this repository as a git submodule (more -> https://git-scm.com/book/en/v2/Git-Tools-Submodules). 
+Navigate your KiCad project root and run the below command inside your terminal:
+```
+git submodule add https://github.com/Turan-1-Satellite/KiCad-Libraries.git
+```
+This creates 
+```
+root-kicad-project/
+├── root-kicad-project.kicad_pro
+├── root-kicad-project.kicad_sch
+├── KiCad-Libraries/   ← git submodule
+└── .gitmodules
+```
+Now you can use symbols and footprints of this library under Custom-Symbols and Custom-Footprints section respectively. You 
 
 ---
 
-## Adding Symbol Libraries
+## Adding Symbols to the Library
+1. Open "Symbol Editor" inside your project
 
-1. Go to
+2. Navigate to **Custom-Symbols** on the left sidebar.
 
-Preferences → Manage Symbol Libraries
-
-2. Click **Add Existing Library**
-
-3. Select the file from
-
-Custom-Symbols/
+3. Under **Custom-Symbols/** section, you can see all the symbols inside this library. You can create "New Symbol" or import one under this library.
 
 ---
 
-## Adding Footprint Libraries
+## Adding Footprints to the Library
 
-1. Go to
+1. Open "Footprint Editor" inside your project
 
-Preferences → Manage Footprint Libraries
+2. Navigate to **Custom-Footprints** on the left sidebar.
 
-2. Click **Add Existing Library**
+3. Under **Custom-Footprints/** section, you can see all the footprints inside this library. You can create "New Footprint" or import one under this library.
 
-3. Select the folder from
-
-Custom-Footprints/
+4. If you have 3d connected to this footprint, put it under "/3Ds" folder to share it with others. And put the relative path to step file like:
+```${KIPRJMOD}/KiCad-Libraries/3Ds/3d-model.step```
 
 ---
 
-After adding these libraries, the Turan-1 components will be available for use in your KiCad projects.
+## Note
+```KIPRJMOD``` is an default environment variable KiCad uses to navigate the project root directory. **DO NOT** manually add it inside env variables inside KiCad. 
+If you do so, it becomes global not project-specific; KiCad assumes that the root project directory is the path you manually assigned in all KiCad projects on your local computer.
+As you cannot delete it after putting this env variable, you have to uninstall and reinstall KiCad to remove this variable. 
