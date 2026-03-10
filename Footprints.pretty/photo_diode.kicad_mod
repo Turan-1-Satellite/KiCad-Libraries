@@ -1,0 +1,229 @@
+(footprint "photo_diode"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CUHS20S40,H3F-2")
+	(property "Reference" "D3"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ddb95f19-354c-4eb4-ae48-752ea54df9b8")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+		)
+	)
+	(property "Value" "CUHS20S30,H3F"
+		(at -0.475 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40e48ff6-f60f-4b68-a802-fc65ac35acdd")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8880bc7-f01d-49e2-aeca-3f48bab1ff29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "445f37e3-d656-4da6-b055-5c2cda7dc3c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.3 0.3)
+		(end -2.3 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c9da0e4-cbf6-4792-86a6-f2caa0c6b005")
+	)
+	(fp_line
+		(start -2.2 0.3)
+		(end -2.2 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d18aa5fe-c066-4896-b70a-70b8d14fc410")
+	)
+	(fp_line
+		(start -0.95 -0.7)
+		(end 1 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f32f5d8-9c29-44a8-9f11-a4f3ba09b397")
+	)
+	(fp_line
+		(start -0.9 0.7)
+		(end 0.9 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dea82d58-73fd-4ba6-a565-e9fe70d21cc5")
+	)
+	(fp_arc
+		(start -2.3 0.3)
+		(mid -2.25 0.25)
+		(end -2.2 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d0f91e3-c51e-4684-a912-59e61e2eb9ea")
+	)
+	(fp_arc
+		(start -2.2 0.3)
+		(mid -2.25 0.35)
+		(end -2.3 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da29bb5b-0b42-4461-8985-9177b69c0f30")
+	)
+	(fp_line
+		(start -3.3 -1.7)
+		(end 2.35 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2eff4cf2-2bed-4ce5-a2f8-aac0adc7ec0b")
+	)
+	(fp_line
+		(start -3.3 1.7)
+		(end -3.3 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2dba564f-7d73-4aa9-bf40-56b6d7de3506")
+	)
+	(fp_line
+		(start -1 -0.7)
+		(end 1 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "275ed104-852c-4118-9388-6442543183fd")
+	)
+	(fp_line
+		(start -1 0.7)
+		(end -1 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5bf0aaf-04dc-48ce-b943-948d0de0b3f6")
+	)
+	(fp_line
+		(start 1 -0.7)
+		(end 1 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84d76682-89fe-4ac8-a29a-eca583a24820")
+	)
+	(fp_line
+		(start 1 0.7)
+		(end -1 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "710a0c3c-a79b-44df-91d7-16b33a239ee6")
+	)
+	(fp_line
+		(start 2.35 -1.7)
+		(end 2.35 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a0cf664-e2e7-43fe-a361-21617ec0c922")
+	)
+	(fp_line
+		(start 2.35 1.7)
+		(end -3.3 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6f69994-b425-4727-a503-eddfd75c4653")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 2 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "2181b582-1aeb-49b4-8e8a-49a690a8216e")
+	)
+	(pad "2" smd rect
+		(at 0.95 0 90)
+		(size 1.1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "0faad434-4e5e-4dae-b7bb-ef784f56c680")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/photo_diode.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
