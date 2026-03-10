@@ -209,7 +209,7 @@
 		(uuid "ae1feca1-2740-4d50-bafe-4500f7ce607c")
 	)
 	(embedded_fonts no)
-	(model "${TURAN_1}/3Ds/Solar_Cell_4c_V1A.STEP"
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/Solar_Cell_4c_V1A.STEP"
 		(offset
 			(xyz 39.8 111 -52)
 		)
@@ -220,7 +220,7 @@
 			(xyz 90 90 -0)
 		)
 	)
-	(model "${TURAN_1}/3Ds/Solar_Cell_4c_V1A_2.STEP"
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/Solar_Cell_4c_V1A_2.STEP"
 		(offset
 			(xyz 39.5 111 -52)
 		)

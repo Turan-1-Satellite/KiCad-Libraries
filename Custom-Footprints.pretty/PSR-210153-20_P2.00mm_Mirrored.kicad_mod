@@ -2724,7 +2724,7 @@
 		(uuid "150cb31d-0108-46d8-b4cc-f7771b03dd8b")
 	)
 	(embedded_fonts no)
-	(model "${TURAN_1}/3Ds/PSR-210153-20-Male.STEP"
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/PSR-210153-20-Male.STEP"
 		(offset
 			(xyz -1 -39.05 0)
 		)

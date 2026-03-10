@@ -169,7 +169,7 @@
 		(uuid "48962a46-b88f-41d0-b59a-cf6e2399c7f2")
 	)
 	(embedded_fonts no)
-	(model "${TURAN_1}/3Ds/Molex_554600272.stp"
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/Molex_554600272.stp"
 		(offset
 			(xyz -1 -2.24 3.4)
 		)
