@@ -1416,8 +1416,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photo diode"
-			(at -11.938 -0.762 0)
+		(property "Footprint" "Custom-Footprints:CUHS20S30,H3F"
+			(at -24.384 -0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,14 +1441,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "CUHS20S30,H3F_1_0"
@@ -2902,7 +2894,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
-			(at 0 0 0)
+			(at -5.08 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2941,7 @@
 		(symbol "Solar_cell_C_1_0"
 			(polyline
 				(pts
-					(xy 4.08 -1) (xy 5.08 -1)
+					(xy -1 -1) (xy 0 -1)
 				)
 				(stroke
 					(width 0.254)
@@ -2961,7 +2953,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 1) (xy 2.08 1)
+					(xy 0 1) (xy -3 1)
 				)
 				(stroke
 					(width 0.254)
@@ -2973,7 +2965,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 1) (xy 5.08 8)
+					(xy 0 1) (xy 0 8)
 				)
 				(stroke
 					(width 0.254)
@@ -2984,7 +2976,7 @@
 				)
 			)
 			(circle
-				(center 5.08 0)
+				(center 0 0)
 				(radius 4.1231)
 				(stroke
 					(width 0.254)
@@ -2996,7 +2988,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -1) (xy 5.08 -8)
+					(xy 0 -1) (xy 0 -8)
 				)
 				(stroke
 					(width 0.254)
@@ -3008,7 +3000,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -1) (xy 6.08 -1)
+					(xy 0 -1) (xy 1 -1)
 				)
 				(stroke
 					(width 0.254)
@@ -3020,7 +3012,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.08 1) (xy 5.08 1)
+					(xy 3 1) (xy 0 1)
 				)
 				(stroke
 					(width 0.254)
@@ -3031,7 +3023,7 @@
 				)
 			)
 			(text "SC_C"
-				(at 10.16 0 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.4224 1.209)
@@ -3040,7 +3032,7 @@
 				)
 			)
 			(text "3G30A"
-				(at 10.16 -2.54 0)
+				(at 5.08 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -3049,7 +3041,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 5.08 11.43 270)
+				(at 0 12.7 270)
 				(length 5.08)
 				(name "+V"
 					(effects
@@ -3067,7 +3059,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 5.08 -12 90)
+				(at 0 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -3092,7 +3084,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
-			(at 0 0 0)
+			(at -5.08 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +3131,7 @@
 		(symbol "solar_cell_B_1_0"
 			(polyline
 				(pts
-					(xy 4.08 -1) (xy 5.08 -1)
+					(xy -1 -1) (xy 0 -1)
 				)
 				(stroke
 					(width 0.254)
@@ -3151,7 +3143,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 1) (xy 2.08 1)
+					(xy 0 1) (xy -3 1)
 				)
 				(stroke
 					(width 0.254)
@@ -3163,7 +3155,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 1) (xy 5.08 8)
+					(xy 0 1) (xy 0 8)
 				)
 				(stroke
 					(width 0.254)
@@ -3174,7 +3166,7 @@
 				)
 			)
 			(circle
-				(center 5.08 0)
+				(center 0 0)
 				(radius 4.1231)
 				(stroke
 					(width 0.254)
@@ -3186,7 +3178,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -1) (xy 5.08 -8)
+					(xy 0 -1) (xy 0 -8)
 				)
 				(stroke
 					(width 0.254)
@@ -3198,7 +3190,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -1) (xy 6.08 -1)
+					(xy 0 -1) (xy 1 -1)
 				)
 				(stroke
 					(width 0.254)
@@ -3210,7 +3202,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.08 1) (xy 5.08 1)
+					(xy 3 1) (xy 0 1)
 				)
 				(stroke
 					(width 0.254)
@@ -3221,7 +3213,7 @@
 				)
 			)
 			(text "3G30A"
-				(at 10.41 -1.54 0)
+				(at 5.33 -1.54 0)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -3230,7 +3222,7 @@
 				)
 			)
 			(text "SC_B"
-				(at 10.69 1.55 0)
+				(at 5.61 1.55 0)
 				(effects
 					(font
 						(size 1.4224 1.209)
@@ -3239,7 +3231,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 5.08 11 270)
+				(at 0 12.7 270)
 				(length 5.08)
 				(name "+V"
 					(effects
@@ -3257,7 +3249,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 5.08 -12.7 90)
+				(at 0 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects

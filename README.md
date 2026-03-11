@@ -14,13 +14,12 @@ These libraries are intended to be used with KiCad for the development of the Tu
 
 ## Importing the Library to the project
 
-1. To use this library inside your KiCad project, all you need is adding this repository as a git submodule (more -> https://git-scm.com/book/en/v2/Git-Tools-Submodules). 
-This means your KiCad project must be a git project. To enable git to track your local KiCad project (if not git already), run this inside your terminal inside project root directory:
+1. To use this library inside your KiCad project, all you need is adding this repository as a git submodule (more -> https://git-scm.com/book/en/v2/Git-Tools-Submodules). This means that git must track KiCad project to be able to use it as a git submodule. To enable git to track your local KiCad project (if not already tracking), run this command inside your terminal inside project root directory:
 ```
 git init
 ```
 
-After confirming your project is tracked by git, navigate your KiCad project root and run the below command inside your terminal:
+2. After confirming your project is tracked by git, navigate your KiCad project root and run the below command inside your terminal:
 ```
 git submodule add https://github.com/Turan-1-Satellite/KiCad-Libraries.git
 ```
@@ -39,8 +38,8 @@ root-kicad-project/
 └── .gitmodules
 ```
 
-Before using library, you have to copy ```sym-lib-table``` and ```ft-lib-table``` to project level (**Note COPY not MOVE**). 
-After moving project directory looks like this (.gitmodules, sym-lib-table, ft-lib-table is not visible inside KiCad project, but they exist inside project repo and git considers these files):
+3. Before using library, you have to copy ```sym-lib-table``` and ```ft-lib-table``` to project level (**Note COPY not MOVE**). 
+After copying to project directory, it looks like this (.gitmodules, sym-lib-table, ft-lib-table is not visible inside KiCad project, but they exist inside project repo and git considers these files):
 ```
 root-kicad-project/
 ├── root-kicad-project.kicad_pro
@@ -81,6 +80,8 @@ Now you can use symbols and footprints of this library under Custom-Symbols and 
 ```${KIPRJMOD}/KiCad-Libraries/3Ds/3d-model.step```
 
 ---
+
+Congrats, now you can use this library!
 
 ## Note
 ```KIPRJMOD``` is an default environment variable KiCad uses to navigate the project root directory. **DO NOT** manually add it inside env variables inside KiCad. 
