@@ -475,7 +475,7 @@
 		(uuid "cd16bdcc-2938-411d-b84d-94037c8c64f3")
 	)
 	(embedded_fonts no)
-	(model "${TURAN_1}/3Ds/Hirose DF14-30P-1.25H(35).STEP"
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/Hirose DF14-30P-1.25H(35).STEP"
 		(offset
 			(xyz -15.95 2.3 -0.05)
 		)

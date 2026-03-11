@@ -228,7 +228,7 @@
 		(uuid "b01fea75-1565-4d64-aedd-b1435f63f22a")
 	)
 	(embedded_fonts no)
-	(model "${TURAN_1}/3Ds/Hirose A3C-4DA-2DSA(71).step"
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/Hirose A3C-4DA-2DSA(71).step"
 		(offset
 			(xyz 24 1 0)
 		)
