@@ -39,7 +39,7 @@ root-kicad-project/
 ```
 
 3. Before using library, you have to copy ```sym-lib-table``` and ```ft-lib-table``` to project level (**Note COPY not MOVE**). 
-After moving project directory looks like this (.gitmodules, sym-lib-table, ft-lib-table is not visible inside KiCad project, but they exist inside project repo and git considers these files):
+After copying to project directory, it looks like this (.gitmodules, sym-lib-table, ft-lib-table is not visible inside KiCad project, but they exist inside project repo and git considers these files):
 ```
 root-kicad-project/
 ├── root-kicad-project.kicad_pro
