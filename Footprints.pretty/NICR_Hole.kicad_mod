@@ -1,0 +1,78 @@
+(footprint "NICR_Hole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U$7"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4ceedd73-ceba-491b-9b74-e841da80d786")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "NICR_HOLE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe9951b4-4072-429e-b6cc-da67cfb203e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a78bff9-c54a-4dcf-ba46-ef0b17026983")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89de7a95-b0d6-4d05-a0d3-ec0f214d2d4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "P$1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "6ca91d8e-7345-410d-a12c-1cfcc5ded877")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/UHF_NiCr.STEP"
+		(offset
+			(xyz 105.65 118.3 -134.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -90)
+		)
+	)
+)

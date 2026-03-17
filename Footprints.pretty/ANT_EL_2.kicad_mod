@@ -1,0 +1,105 @@
+(footprint "ANT_EL_2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TEST PAD")
+	(property "Reference" "ANT_EL2"
+		(at 0.384 -4.22 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a924b8e1-be0b-4fc5-a60e-7f0238fa6d82")
+		(effects
+			(font
+				(size 1.1557 1.1557)
+				(thickness 0.1143)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TPPAD1-13"
+		(at 7.62 2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "16d20e71-b037-4525-bdcb-44050921fb7f")
+		(effects
+			(font
+				(size 0.023531 0.023531)
+				(thickness 0.001869)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25a4d2ba-025b-436d-92db-0c4c12020963")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa3aa093-759f-490f-b7bb-bb96e07c2bfb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.762 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "143b7901-e362-461b-a6cb-1a998b9f915f")
+	)
+	(fp_poly
+		(pts
+			(xy -0.3302 0.3302) (xy 0.3302 0.3302) (xy 0.3302 -0.3302) (xy -0.3302 -0.3302)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "701e0730-706b-4679-8feb-eb7629c86b4a")
+	)
+	(pad "TP" thru_hole roundrect
+		(at 0 0)
+		(size 2.159 2.159)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "85fdfdff-ac43-4742-b97e-b7f080ba386e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/UHF_Antenna_2.STEP"
+		(offset
+			(xyz 94.2 108.4 -134.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -90)
+		)
+	)
+)

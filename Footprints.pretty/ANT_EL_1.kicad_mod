@@ -1,0 +1,105 @@
+(footprint "ANT_EL_1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TEST PAD")
+	(property "Reference" "ANT_EL1"
+		(at -8.526 -4.18 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0f1bbd9b-d8e3-495b-9199-74a258b51f18")
+		(effects
+			(font
+				(size 1.1557 1.1557)
+				(thickness 0.1143)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TPPAD1-13"
+		(at 0.23 0.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e680093a-9210-444e-aa1a-efe0bf2f125d")
+		(effects
+			(font
+				(size 0.023531 0.023531)
+				(thickness 0.001869)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b1993a4-0044-4f26-829a-e288313e72eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84eef66f-8f56-45bc-a961-38a05fc63675")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.762 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "379804f2-b884-4548-a566-ec62d1c097e3")
+	)
+	(fp_poly
+		(pts
+			(xy -0.3302 0.3302) (xy 0.3302 0.3302) (xy 0.3302 -0.3302) (xy -0.3302 -0.3302)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "577f6ae9-af26-4fc7-a348-0ec0838c8da0")
+	)
+	(pad "TP" thru_hole roundrect
+		(at 0 0)
+		(size 2.159 2.159)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "7cd2d4c0-631f-4ea9-93ef-ed37feb12696")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/UHF_Antenna_1.STEP"
+		(offset
+			(xyz 108.1 108.4 -134.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -90 -180)
+		)
+	)
+)
