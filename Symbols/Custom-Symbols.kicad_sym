@@ -4801,7 +4801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom-Footprints:DCK5_TEX"
+		(property "Footprint" "Custom-Footprints:LMT84QDCKTQ1"
 			(at -15.24 -12.7 0)
 			(effects
 				(font
