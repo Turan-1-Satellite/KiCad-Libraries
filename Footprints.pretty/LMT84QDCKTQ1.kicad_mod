@@ -1,11 +1,11 @@
-(footprint "DCK5_TEX"
+(footprint "LMT84QDCKTQ1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "LMT84QDCKTQ1 ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -6.1 -0.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "0a6c112a-1292-4a78-ac70-1022658ff821")
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "DCK5_TEX"
-		(at 0 0 0)
+	(property "Value" "LMT84QDCKTQ1"
+		(at 0 4.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "9e9829ae-b1f7-4389-8424-68737ce92eb1")
@@ -455,7 +455,7 @@
 		(uuid "9e02fece-b9a8-452e-b1b1-1fcffd0bfb4e")
 	)
 	(fp_text user "*"
-		(at -1.37795 -2.0978 0)
+		(at -1.33345 -2.5652 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5873396c-1196-414b-b27d-a2bcfe627aa3")
@@ -467,7 +467,7 @@
 		)
 	)
 	(fp_text user "*"
-		(at -1.37795 -2.0978 0)
+		(at -1.33345 -2.5652 0)
 		(layer "F.SilkS")
 		(uuid "d10587b2-0309-4811-8fb8-e3198a4b563e")
 		(effects
@@ -478,7 +478,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -3.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "0bcd7b12-18d9-41bf-beea-4ced7f1ffe5d")
@@ -490,19 +490,7 @@
 		)
 	)
 	(fp_text user "*"
-		(at -0.4445 -1.1326 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "4f543f7c-7df6-405d-97b8-d1a3fd26494e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -0.4445 -1.1326 0)
+		(at -0.4 -1.6 0)
 		(layer "F.Fab")
 		(uuid "eb25871c-4155-4fc2-ad6b-ba67cd235588")
 		(effects
@@ -543,15 +531,15 @@
 		(uuid "f057292b-ffa9-490d-a187-714c491c84ff")
 	)
 	(embedded_fonts no)
-	(model "D:/PHD/University/My PhD/Turan-1 Satellite/PCB/Temperature Sensor/LMT84QDCKTQ1/KiCADv6/DCK0005A.stp"
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/LMT84QDCKTQ1.stp"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 1.5 1 1)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )
