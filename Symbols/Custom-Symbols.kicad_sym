@@ -1215,7 +1215,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 9.652 4.318 0)
+			(at 6.096 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
