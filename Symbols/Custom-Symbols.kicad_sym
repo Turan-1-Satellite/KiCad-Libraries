@@ -976,14 +976,14 @@
 			(pin passive line
 				(at -2.54 6.35 0)
 				(length 2.54)
-				(name "GND1"
+				(name "1PWR"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "GND1"
+				(number "1PWR"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -994,14 +994,14 @@
 			(pin passive line
 				(at -2.54 2.54 0)
 				(length 2.54)
-				(name "GND"
+				(name "2PWR"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "GND"
+				(number "2PWR"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -1166,14 +1166,14 @@
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 2.54)
-				(name "GND1"
+				(name "1PWR"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "GND1"
+				(number "1PWR"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -1184,14 +1184,14 @@
 			(pin passive line
 				(at -5.08 -1.27 0)
 				(length 2.54)
-				(name "GND"
+				(name "2PWR"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "GND"
+				(number "2PWR"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -1768,14 +1768,14 @@
 			(pin passive line
 				(at -5.08 3.81 0)
 				(length 2.54)
-				(name "PWR"
+				(name "GND"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "PWR"
+				(number "GND"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -1786,14 +1786,14 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "PWR1"
+				(name "1GND"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "PWR1"
+				(number "1GND"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -1804,14 +1804,14 @@
 			(pin passive line
 				(at -5.08 -3.81 0)
 				(length 2.54)
-				(name "SUNS"
+				(name "3P*"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "SUNS"
+				(number "3P*"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -2000,14 +2000,14 @@
 			(pin passive line
 				(at -5.08 3.81 0)
 				(length 2.54)
-				(name "PWR"
+				(name "GND"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "PWR"
+				(number "GND"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -2018,14 +2018,14 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "PWR1"
+				(name "1GND"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "PWR1"
+				(number "1GND"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -2036,14 +2036,14 @@
 			(pin passive line
 				(at -5.08 -3.81 0)
 				(length 2.54)
-				(name "SUNS"
+				(name "3P*"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "SUNS"
+				(number "3P*"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -5424,6 +5424,93 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "GND"
+		(power)
+		(pin_names
+			(offset 1.27)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#GND8"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GND_1_0"
+			(polyline
+				(pts
+					(xy -1.905 0) (xy 1.905 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at 0 2.54 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
 						)
 					)
 				)

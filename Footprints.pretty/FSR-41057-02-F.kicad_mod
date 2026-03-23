@@ -144,6 +144,17 @@
 		(layer "F.SilkS")
 		(uuid "7881bd3c-cd6b-4fa1-93e8-ff7285a7d32d")
 	)
+	(fp_rect
+		(start -5.08 -8.89)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2f6e48f1-8a32-46e0-b9fc-bf1f92666329")
+	)
 	(fp_poly
 		(pts
 			(xy -2.89 -3.937) (xy -2.19 -3.937) (xy -2.19 -4.437) (xy -2.89 -4.437)
@@ -168,28 +179,7 @@
 		(layer "F.SilkS")
 		(uuid "67badd8d-a0da-41c0-9882-e9be52ecc3ba")
 	)
-	(fp_rect
-		(start -5.08 -8.89)
-		(end 2.54 1.27)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "2f6e48f1-8a32-46e0-b9fc-bf1f92666329")
-	)
-	(pad "GND" thru_hole circle
-		(at 0 0)
-		(size 1.9304 1.9304)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.1016)
-		(thermal_bridge_angle 0)
-		(uuid "1bbecfbb-1b18-467e-a3cc-972f1de30173")
-	)
-	(pad "GND1" thru_hole circle
+	(pad "1PWR" thru_hole circle
 		(at -2.54 0)
 		(size 1.9304 1.9304)
 		(drill 1)
@@ -198,6 +188,16 @@
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "54003e2b-2c3b-4bc8-adad-b5476f27e9d5")
+	)
+	(pad "2PWR" thru_hole rect
+		(at 0 0)
+		(size 1.9304 1.9304)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "1bbecfbb-1b18-467e-a3cc-972f1de30173")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/FSR-41057-02-F.step"

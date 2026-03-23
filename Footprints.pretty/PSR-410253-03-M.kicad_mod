@@ -220,17 +220,7 @@
 		(layer "F.SilkS")
 		(uuid "424b427d-a09d-4d87-8860-ce9e81d2d71a")
 	)
-	(pad "PWR" thru_hole rect
-		(at 0 0)
-		(size 1.9304 1.9304)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.1016)
-		(thermal_bridge_angle 0)
-		(uuid "d6e9f9cb-b562-4e2a-a441-274e35fc83dc")
-	)
-	(pad "PWR1" thru_hole circle
+	(pad "1GND" thru_hole circle
 		(at -2.54 0)
 		(size 1.9304 1.9304)
 		(drill 1)
@@ -240,7 +230,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "be5e2277-c8ca-451b-8afb-e202ac0c216e")
 	)
-	(pad "SUNS" thru_hole circle
+	(pad "3P*" thru_hole circle
 		(at -5.08 0)
 		(size 1.9304 1.9304)
 		(drill 1)
@@ -249,6 +239,16 @@
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "7da075e4-528e-4d4b-bae2-47dd166a397b")
+	)
+	(pad "GND" thru_hole rect
+		(at 0 0)
+		(size 1.9304 1.9304)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d6e9f9cb-b562-4e2a-a441-274e35fc83dc")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/PSR-410253-03-M.step"
