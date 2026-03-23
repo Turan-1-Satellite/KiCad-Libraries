@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "PRS-210153-20"
+	(property "Value" "PSR-210153-20"
 		(at 0.5 40.5 0)
 		(layer "F.Fab")
 		(uuid "bb3953d3-651b-4356-a33c-9ead9a22c02c")
