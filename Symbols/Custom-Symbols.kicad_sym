@@ -15459,7 +15459,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/lmt84-q1"
-			(at -11.43 16.51 0)
+			(at -0.254 -0.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
