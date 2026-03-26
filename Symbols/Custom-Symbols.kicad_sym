@@ -3231,14 +3231,14 @@
 			(pin passive line
 				(at -5.08 3.81 0)
 				(length 2.54)
-				(name "GND"
+				(name "3P*"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "GND"
+				(number "3P*"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -3267,14 +3267,14 @@
 			(pin passive line
 				(at -5.08 -3.81 0)
 				(length 2.54)
-				(name "3P*"
+				(name "GND"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "3P*"
+				(number "GND"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -3463,14 +3463,14 @@
 			(pin passive line
 				(at -5.08 3.81 0)
 				(length 2.54)
-				(name "GND"
+				(name "3P*"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "GND"
+				(number "3P*"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -3499,14 +3499,14 @@
 			(pin passive line
 				(at -5.08 -3.81 0)
 				(length 2.54)
-				(name "3P*"
+				(name "GND"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "3P*"
+				(number "GND"
 					(effects
 						(font
 							(size 1.524 1.524)
