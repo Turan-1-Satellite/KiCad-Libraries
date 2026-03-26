@@ -1,0 +1,237 @@
+(footprint "DTC144EET1G"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SC-75/SOT-416 CASE 463")
+	(tags "Transistor")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f4dfeb5a-bd95-4926-853c-7896ebfaaff3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT50P160X90-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5ac7f9a0-0917-4fbe-a160-cce9f7fde1c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da2ad101-9e68-43a0-a95b-c4e179eed261")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02fc048c-50f0-468e-84c2-55ab38108b77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 -0.95)
+		(end -0.4 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32cea1fb-09ae-4d42-a3c9-7a667b264e1b")
+	)
+	(fp_line
+		(start -0.05 -0.8)
+		(end 0.05 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86bab35d-dd46-4e47-a0fe-6deae9520388")
+	)
+	(fp_line
+		(start -0.05 0.8)
+		(end -0.05 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2def9c5-9c37-44f6-a5b7-6e37f8e9eed3")
+	)
+	(fp_line
+		(start 0.05 -0.8)
+		(end 0.05 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e595c25-fba3-4ae6-86b1-f17f8d002914")
+	)
+	(fp_line
+		(start 0.05 0.8)
+		(end -0.05 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a705681-564e-47e8-807a-5a79bdd7f307")
+	)
+	(fp_line
+		(start -1.45 -1.075)
+		(end 1.45 -1.075)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da2afc35-3a26-49be-a958-d3de19935eb7")
+	)
+	(fp_line
+		(start -1.45 1.075)
+		(end -1.45 -1.075)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c410f8e7-484d-43aa-ab5f-6e4aeae0347b")
+	)
+	(fp_line
+		(start 1.45 -1.075)
+		(end 1.45 1.075)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9608de86-bc7e-4927-9322-b3bac1f806dd")
+	)
+	(fp_line
+		(start 1.45 1.075)
+		(end -1.45 1.075)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5585d624-4587-42a1-b7c5-c4fb9739baa9")
+	)
+	(fp_line
+		(start -0.4 -0.8)
+		(end 0.4 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4dd0e120-4000-49bc-a072-31411220996a")
+	)
+	(fp_line
+		(start -0.4 -0.3)
+		(end 0.1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01a1ee1b-d7f7-45b9-b394-9e8dfe018642")
+	)
+	(fp_line
+		(start -0.4 0.8)
+		(end -0.4 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2da5b667-221c-47ab-aabe-b429ce78d5d3")
+	)
+	(fp_line
+		(start 0.4 -0.8)
+		(end 0.4 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac8c76e3-6607-4ab9-b7b8-b878668af755")
+	)
+	(fp_line
+		(start 0.4 0.8)
+		(end -0.4 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "435d4475-fae6-46dd-ad41-3271a8093c2f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "625510b5-9bcb-4263-bb84-2fc5db75d4da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 -0.5 90)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "66047f6e-a08f-4070-8d8a-f9b6600df2a2")
+	)
+	(pad "2" smd rect
+		(at -0.8 0.5 90)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7d28142-302c-4eeb-be83-c50a2d038f65")
+	)
+	(pad "3" smd rect
+		(at 0.8 0 90)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "98681856-280c-46be-ba10-530a7a1f0f5d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/DTC144EET1G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
