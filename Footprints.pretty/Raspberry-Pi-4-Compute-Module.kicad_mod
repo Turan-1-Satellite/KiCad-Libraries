@@ -1608,4 +1608,15 @@
 			(xyz -90 0 0)
 		)
 	)
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/CM4.step"
+		(offset
+			(xyz 52 -3.5 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )
