@@ -105,26 +105,6 @@
 		(uuid "76b53baf-7b8b-4d79-88b4-82977fdbe409")
 	)
 	(fp_line
-		(start -0.500002 0)
-		(end 0.499999 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "553eebd2-919a-4b75-81a2-28ecb04f525f")
-	)
-	(fp_line
-		(start 0 0.499999)
-		(end 0 -0.499999)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "93da59e4-17a3-421b-84b9-9da8af328c92")
-	)
-	(fp_line
 		(start 3.7 2.799999)
 		(end 3.7 -2.799999)
 		(stroke
