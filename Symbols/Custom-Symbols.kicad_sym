@@ -19515,7 +19515,7 @@
 				)
 			)
 		)
-		(property "Value" "LTC4389IMS-4#PBF"
+		(property "Value" "LTC4380IMS-4#PBF"
 			(at 19.558 6.096 0)
 			(effects
 				(font
