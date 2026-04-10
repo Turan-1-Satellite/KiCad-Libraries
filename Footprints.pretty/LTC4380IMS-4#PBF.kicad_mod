@@ -196,7 +196,7 @@
 	)
 	(fp_line
 		(start 2.65 -1.635)
-		(end 2.65 1.595)
+		(end 2.65 1.64)
 		(stroke
 			(width 0.1524)
 			(type solid)
