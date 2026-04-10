@@ -50,7 +50,7 @@
 		)
 	)
 	(fp_line
-		(start 0 -0.5)
+		(start 0 0)
 		(end 0 -27.5)
 		(stroke
 			(width 0.3048)

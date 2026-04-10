@@ -330,9 +330,9 @@
 		(uuid "83122bb6-886b-4f4e-be4c-eb61f5a989aa")
 	)
 	(embedded_fonts no)
-	(model "G:/KiCad Work/Libraries/UHF local library/3D/PAN_AQZ-SIP4_PAN.step"
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/PAN_AQZ-SIP4_PAN.step"
 		(offset
-			(xyz 9 -5.5 2)
+			(xyz 9 -5 2)
 		)
 		(scale
 			(xyz 1 1 1)
