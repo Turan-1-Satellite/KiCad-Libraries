@@ -19503,7 +19503,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LTC4380IMS-4#PBF"
+	(symbol "LTC4380IMS-2#PBF"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19515,7 +19515,7 @@
 				)
 			)
 		)
-		(property "Value" "LTC4380IMS-4#PBF"
+		(property "Value" "LTC4380IMS-2#PBF"
 			(at 19.558 6.096 0)
 			(effects
 				(font
@@ -19523,7 +19523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom-Footprints:LTC4380IMS-4#PBF"
+		(property "Footprint" "Custom-Footprints:LTC4380IMS-2#PBF"
 			(at 21.336 2.794 0)
 			(effects
 				(font
@@ -19550,7 +19550,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LTC4380IMS-4#PBF_0_1"
+		(symbol "LTC4380IMS-2#PBF_0_1"
 			(polyline
 				(pts
 					(xy 7.62 5.08) (xy 7.62 -13.97)
@@ -19744,7 +19744,7 @@
 				)
 			)
 		)
-		(symbol "LTC4380IMS-4#PBF_1_1"
+		(symbol "LTC4380IMS-2#PBF_1_1"
 			(pin unspecified line
 				(at 0 0 0)
 				(length 7.62)
