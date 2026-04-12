@@ -338,7 +338,7 @@
 		(uuid "fa4310e6-2641-4706-852d-07e6ca468e76")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/LTC4380IMS-4#PBF.stp"
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/LTC4380IMS-2#PBF.stp"
 		(offset
 			(xyz 0 0 0.6)
 		)
