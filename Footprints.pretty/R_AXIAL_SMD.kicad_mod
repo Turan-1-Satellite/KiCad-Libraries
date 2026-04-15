@@ -1,4 +1,4 @@
-(footprint "AXIAL_SMD"
+(footprint "R_AXIAL_SMD"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -9,17 +9,23 @@
 		(layer "F.SilkS")
 		(uuid "d32eeb78-e20f-4fd3-981f-d1c328e694f8")
 		(effects
-			(font (size 1.647139 1.647139) (thickness 0.130861))
+			(font
+				(size 1.647139 1.647139)
+				(thickness 0.130861)
+			)
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at -5 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ffb124e4-436b-4941-b355-83df67b44fe2")
 		(effects
-			(font (size 1.647139 1.647139) (thickness 0.130861))
+			(font
+				(size 1.647139 1.647139)
+				(thickness 0.130861)
+			)
 			(justify left bottom)
 		)
 	)
@@ -29,7 +35,10 @@
 		(hide yes)
 		(uuid "08670d30-a1af-486e-8dab-2b028b186a4e")
 		(effects
-			(font (size 1.27 1.27) (thickness 0.15))
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Description" ""
@@ -38,34 +47,49 @@
 		(hide yes)
 		(uuid "2c4107da-2d0c-4fe5-a4b0-feda99c8689e")
 		(effects
-			(font (size 1.27 1.27) (thickness 0.15))
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
 		)
 	)
 	(fp_line
 		(start -3 -1.15)
 		(end 3 -1.15)
-		(stroke (width 0.1524) (type solid))
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
 		(layer "F.SilkS")
 		(uuid "7ef14a30-96c9-41f1-a78f-62b9923b7a91")
 	)
 	(fp_line
 		(start -3 1.15)
 		(end -3 -1.15)
-		(stroke (width 0.1524) (type solid))
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
 		(layer "F.SilkS")
 		(uuid "12c9d3a9-937e-4596-939b-ef97c0175a2c")
 	)
 	(fp_line
 		(start 3 -1.15)
 		(end 3 1.15)
-		(stroke (width 0.1524) (type solid))
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
 		(layer "F.SilkS")
 		(uuid "a446c92c-92d4-4744-8872-bb5befd909f2")
 	)
 	(fp_line
 		(start 3 1.15)
 		(end -3 1.15)
-		(stroke (width 0.1524) (type solid))
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
 		(layer "F.SilkS")
 		(uuid "ce9f6471-4745-4d31-80dd-9689467f1e03")
 	)
@@ -88,4 +112,15 @@
 		(uuid "37dd5865-9243-4002-8726-6fdb39216201")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad-Libraries/3Ds/R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal.step"
+		(offset
+			(xyz -7.5 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
